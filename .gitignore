@@ -1,0 +1,20 @@
+# ignore virtual environment
+.venv/
+venv/
+data/
+
+# ignore datasets
+*.csv
+*.npy
+*.npz
+
+# ignore outputs & models
+output_files/
+*.pkl
+*.h5
+*.pt
+*.joblib
+
+# ignore Python garbage
+__pycache__/
+*.pyc
